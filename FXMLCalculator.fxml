@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="371.0" prefWidth="519.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.FXMLCalculatorController"><stylesheets> <URL value="@calculator.css" /> </stylesheets>
+    <children>
+        <Button fx:id="button" layoutX="300.0" layoutY="164.0" onAction="#handleButtonAction" text="1" />
+      <Button fx:id="button1" layoutX="348.0" layoutY="164.0" onAction="#handleButtonAction" text="2" />
+      <Button fx:id="button2" layoutX="397.0" layoutY="164.0" onAction="#handleButtonAction" text="3" />
+      <Button fx:id="button3" layoutX="300.0" layoutY="214.0" onAction="#handleButtonAction" text="4" />
+      <Button fx:id="button4" layoutX="348.0" layoutY="214.0" onAction="#handleButtonAction" text="5" />
+      <Button fx:id="button5" layoutX="397.0" layoutY="214.0" onAction="#handleButtonAction" text="6" />
+      <Button fx:id="button6" layoutX="300.0" layoutY="261.0" onAction="#handleButtonAction" text="7" />
+      <Button fx:id="button7" layoutX="348.0" layoutY="261.0" onAction="#handleButtonAction" text="8" />
+      <Button fx:id="button8" layoutX="397.0" layoutY="261.0" onAction="#handleButtonAction" text="9" />
+      <Button fx:id="button9" layoutX="348.0" layoutY="307.0" onAction="#handleButtonAction" text="0" />
+      <Button fx:id="button10" layoutX="300.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="CE" />
+      <Button fx:id="button101" layoutX="348.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="C" />
+      <Button fx:id="button102" layoutX="397.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="⌫" />
+      <Button fx:id="button91" layoutX="449.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="/" />
+      <Button fx:id="button92" layoutX="449.0" layoutY="164.0" onAction="#handleButtonAction" text="*" />
+      <Button fx:id="button93" layoutX="449.0" layoutY="261.0" onAction="#handleButtonAction" text="+" />
+      <Button fx:id="button94" layoutX="449.0" layoutY="214.0" onAction="#handleButtonAction" text="-" />
+      <Button fx:id="button95" layoutX="449.0" layoutY="307.0" onAction="#handleButtonAction" text="=" />
+      <Button fx:id="button96" layoutX="397.0" layoutY="307.0" onAction="#handleButtonAction" text="." />
+      <Button fx:id="button97" layoutX="300.0" layoutY="307.0" onAction="#handleButtonAction" text="±" />
+      <Button fx:id="button104" layoutX="253.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="tan" />
+      <Button fx:id="button103" layoutX="206.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="cos" />
+      <Button fx:id="button1031" layoutX="62.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="x^2" />
+      <Button fx:id="button1032" layoutX="112.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="x^y" />
+      <Button fx:id="button1033" layoutX="159.0" layoutY="115.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="sin" />
+      <TextField id="display" fx:id="display" alignment="CENTER_RIGHT" layoutX="61.0" layoutY="49.0" prefHeight="51.0" prefWidth="434.0" text="0" />
+      <Button fx:id="button10311" layoutX="62.0" layoutY="166.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="x^3" />
+      <Button fx:id="button10312" layoutX="62.0" layoutY="214.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="√" />
+      <Button fx:id="button10313" layoutX="62.0" layoutY="261.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="1/x" />
+      <Button fx:id="button10314" layoutX="62.0" layoutY="307.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" />
+      <Button fx:id="button10315" layoutX="112.0" layoutY="166.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="x√y" />
+      <Button fx:id="button10316" layoutX="159.0" layoutY="164.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="sin-1" />
+      <Button fx:id="button10317" layoutX="206.0" layoutY="164.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="cos-1" />
+      <Button fx:id="button10318" layoutX="253.0" layoutY="166.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="tan-1" />
+      <Button fx:id="button103110" layoutX="112.0" layoutY="214.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="10^x" />
+      <Button fx:id="button103111" layoutX="159.0" layoutY="214.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="log" />
+      <Button fx:id="button103112" layoutX="206.0" layoutY="214.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="Exp" />
+      <Button fx:id="button103113" layoutX="253.0" layoutY="214.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="Mod" />
+      <Button fx:id="button103115" layoutX="112.0" layoutY="261.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="e^x" />
+      <Button fx:id="button103116" layoutX="159.0" layoutY="261.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="ln" />
+      <Button fx:id="button103117" layoutX="206.0" layoutY="261.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="dms" />
+      <Button fx:id="button103118" layoutX="253.0" layoutY="261.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="deg" />
+      <Button fx:id="button103120" layoutX="112.0" layoutY="307.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="π" />
+      <Button fx:id="button103121" layoutX="159.0" layoutY="307.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="n!" />
+      <Button fx:id="button103122" layoutX="206.0" layoutY="307.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text="(" />
+      <Button fx:id="button103123" layoutX="253.0" layoutY="307.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" text=")" />
+    </children>
+</AnchorPane>
